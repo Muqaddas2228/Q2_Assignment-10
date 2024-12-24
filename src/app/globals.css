@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  background-size: 1550px;
+  background-position-y:top;
+  background-position-x: right;
+  background-image: url(./images/download.jpg);
+}
+
+.container{
+  width: 50%;
+  height: fit-content;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container h1{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: transparent;
+  color: rgb(250, 247, 247);
+  padding: 20px;
+
+}
+.container p{
+  font-size: 20px;
+  color: transparent;
+  padding-left: 40px;
+  background-color: transparent;
+  text-align: left;
+  padding: 2px;
+  
+}
+.container span{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+}
+input{
+  width: 99%;
+  height: 30px;
+ border: transparent;
+}
